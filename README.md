@@ -12,10 +12,10 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 
 | Make       | Model           | Model Number | TPM       | Chipset  | Protocol | Location   | Debug Headers | Blog/Research   | Extractable |
 |------------|-----------------|--------------|-----------|----------|----------|------------|---------------|-----------------|-------------|
-| Lenovo     | Thinkpad        | L440         | 1.2       | P24JPVSP | LPC      | Under Keyboard | Yes       | -               | Yes         |
+| Lenovo     | Thinkpad        | L440         | 1.2       | P24JPVSP | LPC      | Under Keyboard | Yes       | [Blog](https://blog.scrt.ch/2021/11/15/tpm-sniffing/)               | Yes         |
 | Dell       | Lattitude       | E7450        | 1.2       | AT97SC3205 | SPI    | Motherboard| No           | [@SecurityJon](https://twitter.com/SecurityJon/status/1445020885472235524)               | Yes         |
 | Dell       | Lattitude       | E5470        | 2.0       | NPCT650JAOYX | SPI  | Motherboard| Yes           | [Blog](https://labs.withsecure.com/publications/sniff-there-leaks-my-bitlocker-key)               | Yes         |
-| Microsoft  | Surface Pro 3   |              | 2.0       | SLB9665TT2.0        | LPC      | Under Battery  | No        | -               | Yes         |
+| Microsoft  | Surface Pro 3   |              | 2.0       | SLB9665TT2.0        | LPC      | Under Battery  | No        | [Blog](https://pulsesecurity.co.nz/articles/TPM-sniffing)               | Yes         |
 | EXAMPLE    |                 |              | 1.2       | -        | I2C      | -          |               | -               | Yes         |
 
 ## Research
