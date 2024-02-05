@@ -1,4 +1,4 @@
-# Retrieving Bitlocker Keys from TPM using SPI or LPC Communications
+# TPM SNIFFING
 
 Retrieving Bitlocker keys from the TPM using SPI, I2C or LPC communications requires an understanding of the specific protocol supported by the TPM chip, as well as the device's make and model. Proper documentation and research are essential for successful key retrieval. This repo is to collaborate all the awesome resources and information hopefully into one place!
 
