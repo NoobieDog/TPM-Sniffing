@@ -53,6 +53,8 @@ For further information and detailed instructions, refer to the provided blog po
 
 [TPM Vulnerabilties](https://www.bleepingcomputer.com/news/security/new-tpm-20-flaws-could-let-hackers-steal-cryptographic-keys/)
 
+[AMD TPM Exploit](https://www.tomshardware.com/news/amd-tpm-hacked-faultpm)
+
 ## Tools
 
 A list of awesome tools for sniffing TPM data are listed below.
