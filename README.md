@@ -14,7 +14,7 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 |------------|-----------------|--------------|-----------|----------|----------|------------|---------------|-----------------|-------------|
 | Lenovo     | Thinkpad        | L440         | 1.2       | P24JPVSP | LPC      | Under Keyboard | Yes       | -               | Yes         |
 | Dell       | Lattitude       | E5470        | 2.0       | NPCT650JAOYX | SPI  | Motherboard| Yes           | -               | Yes         |
-| Microsoft  | Surface Pro 3   |              | 2.0       | -        | LPC      | Under Battery  | No        | -               | Yes         |
+| Microsoft  | Surface Pro 3   |              | 2.0       | SLB9665TT2.0        | LPC      | Under Battery  | No        | -               | Yes         |
 | EXAMPLE    |                 |              | 1.2       | -        | I2C      | -          |               | -               | Yes         |
 
 ## Research
