@@ -57,6 +57,8 @@ A list of awesome tools for sniffing TPM data are listed below.
 
 [LPCClocklessAnalyzer](https://github.com/stacksmashing/LPCClocklessAnalyzer)
 
+[libsigrokdecoder_spi-tpm](https://github.com/ghecko/libsigrokdecoder_spi-tpm)
+
 
 
 
