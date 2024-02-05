@@ -61,7 +61,9 @@ A list of awesome tools for sniffing TPM data are listed below.
 [libsigrokdecoder_spi-tpm](https://github.com/ghecko/libsigrokdecoder_spi-tpm)
 
 
+## Trainings
 
+[Hands-on-security Bitlocker/TPM Hardware training Course](https://hands-on-security.com/#trainings)
 
 
 
