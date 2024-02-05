@@ -67,6 +67,8 @@ A list of awesome tools for sniffing TPM data are listed below.
 
 [libsigrokdecoder_spi-tpm](https://github.com/ghecko/libsigrokdecoder_spi-tpm)
 
+[IceStick LPC TPM Snigger](https://github.com/SySS-Research/icestick-lpc-tpm-sniffer)
+
 
 ## Trainings
 
