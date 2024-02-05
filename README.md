@@ -1,6 +1,6 @@
 # Retrieving Bitlocker Keys from TPM using SPI or LPC Communications
 
-Retrieving Bitlocker keys from the TPM using SPI or LPC communications requires an understanding of the specific protocol supported by the TPM chip, as well as the device's make and model. Proper documentation and research are essential for successful key retrieval. This repo is to collaborate all the awesome resources and information hopefully into one place!
+Retrieving Bitlocker keys from the TPM using SPI, I2C or LPC communications requires an understanding of the specific protocol supported by the TPM chip, as well as the device's make and model. Proper documentation and research are essential for successful key retrieval. This repo is to collaborate all the awesome resources and information hopefully into one place!
 
 NOTE: I'm 100% sure that there is alot of blogs/data missing here, but please if you know of any and want to contribute, please DO a PR!
 
@@ -12,9 +12,9 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 
 | Make       | Model           | Model Number | TPM       | Protocol | Location   | Debug Headers | Blog/Research   | Extractable |
 |------------|-----------------|--------------|-----------|----------|------------|---------------|-----------------|-------------|
-| Lenovo     | Gen 6           |              | 2.0       | SPI      | Under Keyboard | Yes     |  | Yes         |
+| Lenovo     | Gen 6           |              | 2.0       | LPC      | Under Keyboard | Yes     |  | Yes         |
 | Dell       | Lattitude       | E5470        | 2.0       | SPI      | Motherboard| Yes          |  | Yes         |
-| Example   | Laptop          |              | 1.2       | SPI      | Under Battery  | No          |  | Yes         |
+| Example   | Laptop          |              | 1.2       | I2C      | Under Battery  | No          |  | Yes         |
 
 ## Research
 
