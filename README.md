@@ -49,6 +49,8 @@ For further information and detailed instructions, refer to the provided blog po
 
 [BitCracker: BitLocker meets GPUs](https://arxiv.org/abs/1901.01337)
 
+[TPM Fail](https://tpm.fail/)
+
 ## Tools
 
 A list of awesome tools for sniffing TPM data are listed below.
