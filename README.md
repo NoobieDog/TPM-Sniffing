@@ -42,6 +42,10 @@ For further information and detailed instructions, refer to the provided blog po
 
 [Sniff, there leaks my BitLocker key](https://labs.withsecure.com/publications/sniff-there-leaks-my-bitlocker-key)
 
+[Bitlocker Attacks](https://github.com/Wack0/bitlocker-attacks)
+
+[BitCracker: BitLocker meets GPUs](https://arxiv.org/abs/1901.01337)
+
 ## Tools
 
 A list of awesome tools for sniffing TPM data are listed below.
