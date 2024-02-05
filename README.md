@@ -51,6 +51,8 @@ For further information and detailed instructions, refer to the provided blog po
 
 [TPM Fail](https://tpm.fail/)
 
+[TPM Vulnerabilties](https://www.bleepingcomputer.com/news/security/new-tpm-20-flaws-could-let-hackers-steal-cryptographic-keys/)
+
 ## Tools
 
 A list of awesome tools for sniffing TPM data are listed below.
