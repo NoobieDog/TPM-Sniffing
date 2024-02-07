@@ -75,5 +75,11 @@ A list of awesome tools for sniffing TPM data are listed below.
 
 [Hands-on-security Bitlocker/TPM Hardware training Course](https://hands-on-security.com/#trainings)
 
+## Mitigations 
+
+The only mitigation for this attack is to enable BitLocker with a PIN OR security key which is adds "Preboot Authentication”. The sniffable key isnt released until after the correct pin is entered. Enterprises rarely use the PIN or security key because it’s inconvenient for users, they need to enter the unlock PIN then their normal user password. 
+
+[Preboot Authentication](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/countermeasures#preboot-authentication)
+
 
 
