@@ -24,6 +24,8 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 
 For further information and detailed instructions, refer to the provided blog posts and research documents.
 
+[Microsoft bitLocker bypasses are practical](https://blog.compass-security.com/2024/02/microsoft-bitlocker-bypasses-are-practical/)
+
 [A Deep Dive into TPM-based BitLocker Drive Encryption](https://blog.scrt.ch/2023/09/15/a-deep-dive-into-tpm-based-bitlocker-drive-encryption/)
 
 [TPM Sniffing](https://blog.scrt.ch/2021/11/15/tpm-sniffing/)
