@@ -14,6 +14,7 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 |------------|-----------------|--------------|-----------|----------|----------|------------|---------------|-----------------|-------------|
 | Lenovo     | Thinkpad        | L440         | 1.2       | P24JPVSP | LPC      | Under Keyboard | Yes       | [Blog](https://blog.scrt.ch/2021/11/15/tpm-sniffing/)               | Yes         |
 | Lenovo     | X1 Carbon       | Gen 11       | 2.0       | ST33TPHF2XSPI | SPI      | Under Motherboard | Test Pads       | [@NoobieDog](https://x.com/NoobieDog/status/1755166872985571662?s=20)               | Yes         |
+| Lenovo     | T460       |BT462 NM-A581 rev.2| 1.2       | SLB9670VQ1.2 | SPI | Under Motherboard | Extractable via BIOS Chip | [@zaphoxx](https://twitter.com/zaphoxx/status/1763669704177078560) | Yes |
 | Dell       | Lattitude       | E7450        | 1.2       | AT97SC3205 | SPI    | Motherboard| No           | [@SecurityJon](https://twitter.com/SecurityJon/status/1445020885472235524)               | Yes         |
 | Dell       | Lattitude       | E5470        | 2.0       | NPCT650JAOYX | SPI  | Motherboard| Yes           | [Blog](https://labs.withsecure.com/publications/sniff-there-leaks-my-bitlocker-key)               | Yes         |
 | Dell       | Lattitude       | E5450        | 1.2       | AT97SC3205 | SPI  | Motherboard| Yes           | [Blog](https://luemmelsec.github.io/Go-away-BitLocker-you-are-drunk/)               | Yes         |
