@@ -64,6 +64,8 @@ For further information and detailed instructions, refer to the provided blog po
 
 [AMD TPM Exploit](https://www.tomshardware.com/news/amd-tpm-hacked-faultpm)
 
+[Sniffing Bitlocker Keys 2024](https://en4rab.github.io/posts/Sniffing-Bitlocker-Keys/)
+
 ## Tools
 
 A list of awesome tools for sniffing TPM data are listed below.
