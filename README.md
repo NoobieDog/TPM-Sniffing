@@ -80,6 +80,8 @@ A list of awesome tools for sniffing TPM data are listed below.
 
 [IceStick LPC TPM Snigger](https://github.com/SySS-Research/icestick-lpc-tpm-sniffer)
 
+[SPITKey](https://github.com/en4rab/SPITkey)
+
 
 ## Trainings
 
