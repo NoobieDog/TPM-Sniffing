@@ -21,7 +21,7 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 | Dell       | Lattitude       | E5450        | 1.2       | AT97SC3205 | SPI  | Motherboard| Yes           | [Blog](https://luemmelsec.github.io/Go-away-BitLocker-you-are-drunk/)               | Yes         |
 | Microsoft  | Surface Pro 3   |              | 2.0       | SLB9665TT2.0        | LPC      | Under Battery  | No        | [Blog](https://pulsesecurity.co.nz/articles/TPM-sniffing)               | Yes         |
 | Asus       | TPM-M R2.0      |              | 2.0       | SLB9665TT2.0        | LPC      | -              | Yes       | [Video](https://www.youtube.com/watch?v=-Fj3SeZww3M)      | Yes     |
-| HP       | Elite       |   640 g9           | 2.0       | SLB9670        | SPIC      | -              | Yes       | -      | Yes     |
+| HP       | Elite       |   640 g9           | 2.0       | SLB9670        | SPI      | -              | Yes       | -      | Yes     |
 
 ## Research
 
