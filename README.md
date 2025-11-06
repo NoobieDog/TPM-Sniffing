@@ -27,6 +27,8 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 | HP        | Elite         | 830 G7              | 2.0     | SLB9670VQ        | SPI      | Under Motherboard (QFN package) | Extractable via 25Q256JVEN chip WSON8  | [@lowercase_drm](https://x.com/lowercase_drm/status/1917155760192291171)            | Yes         |
 | HP        | Elite         | 1040 G3             | 2.0     | SLB9670VQ        | SPI      | Under Motherboard (QFN package) | Extractable via BIOS Chip (U23) SOIC8  | [@lowercase_drm](https://x.com/lowercase_drm/status/1912783481546883149)            | Yes         |
 | HP        | Elite         | 1040 G10            | 2.0     | NPCT760HABYX     | SPI      | Under Motherboard               | Extractable via 25Q256JVEN (chip U367) | [@lowercase_drm](https://x.com/lowercase_drm/status/1935300711224361382)            | Yes         |
+| HP        | ProBook       | 4 G1                | 2.0     | NPCT760HABYX     | SPI      | Under Motherboard               | Extractable via BIOS Chip              | [@gquere blog](https://www.errno.fr/Bitlocker_TPM_and_PIN_privesc.html)             | Yes         |
+
 
 ## Research
 
