@@ -31,6 +31,7 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 | HP        | Elite         | 1040 G3             | 2.0     | SLB9670VQ        | SPI      | Under Motherboard (QFN package) | Extractable via BIOS Chip (U23) SOIC8        | [@lowercase_drm](https://x.com/lowercase_drm/status/1912783481546883149)                                     | Yes         |
 | HP        | Elite         | 1040 G10            | 2.0     | NPCT760HABYX     | SPI      | Under Motherboard               | Extractable via 25Q256JVEN (chip U367)       | [@lowercase_drm](https://x.com/lowercase_drm/status/1935300711224361382)                                     | Yes         |
 | HP        | ProBook       | 4 G1                | 2.0     | NPCT760HABYX     | SPI      | Under Motherboard               | Extractable via BIOS Chip                    | [@gquere blog](https://www.errno.fr/Bitlocker_TPM_and_PIN_privesc.html)                                      | Yes         |
+| Moxa      | UC-1222A      | Secure Edition      | 2.0     | SLB9670          | SPI      | Under Motherboard               | No                                           | [Blog](https://www.cyloq.se/en/research/cve-2026-0714-tpm-sniffing-luks-keys-on-an-embedded-device)          | Yes         |
 
 
 ## Research
@@ -79,6 +80,8 @@ For further information and detailed instructions, refer to the provided blog po
 
 [Sniffing Bitlocker Keys 2024](https://en4rab.github.io/posts/Sniffing-Bitlocker-Keys/)
 
+[CVE-2026-0714: TPM Sniffing LUKS Keys on an Embedded Device](https://www.cyloq.se/en/research/cve-2026-0714-tpm-sniffing-luks-keys-on-an-embedded-device)
+
 ## Tools
 
 A list of awesome tools for sniffing TPM data are listed below.
@@ -96,6 +99,8 @@ A list of awesome tools for sniffing TPM data are listed below.
 [IceStick LPC TPM Snigger](https://github.com/SySS-Research/icestick-lpc-tpm-sniffer)
 
 [SPITKey](https://github.com/en4rab/SPITkey)
+
+[TPM2-NV_Read-Secret-Extractor](https://github.com/CYLOQ/TPM2-NV_Read-Secret-Extractor)
 
 
 ## Trainings
