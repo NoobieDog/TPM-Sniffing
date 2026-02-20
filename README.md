@@ -1,12 +1,12 @@
 # TPM SNIFFING
 
-Retrieving Bitlocker keys from a dTPM using SPI, I2C or LPC communications requires an understanding of the specific protocol supported by a dTPM chip, as well as the device's make and model. Proper documentation and research are essential for successful key retrieval. This repo is to collaborate all the awesome resources and information hopefully into one place!
+Retrieving Bitlocker and LUKS keys from a dTPM using SPI, I2C or LPC communications requires an understanding of the specific protocol supported by a dTPM chip, as well as the device's make and model. Proper documentation and research are essential for successful key retrieval. This repo is to collaborate all the awesome resources and information hopefully into one place!
 
 NOTE: I'm 100% sure that there is alot of blogs/data missing here, but please if you know of any and want to contribute, please DO a PR!
 
 ## Introduction
 
-Trusted Platform Module (TPM) is a hardware-based security chip that is often used to store encryption keys securely, including Bitlocker keys used for full disk encryption in Windows environments. Retrieving these keys from a dTPM can be achieved through various communication channels, although the specific method may vary depending on the device's make and model.
+Trusted Platform Module (TPM) is a hardware-based security chip that is often used to store encryption keys securely, including Bitlocker keys and Luks used for full disk encryption in Windows and Linux environments. Retrieving these keys from a dTPM can be achieved through various communication channels, although the specific method may vary depending on the device's make and model.
 
 ## Table: TPM Communication Methods
 
