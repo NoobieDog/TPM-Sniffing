@@ -42,6 +42,8 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 
 For further information and detailed instructions, refer to the provided blog posts and research documents.
 
+[TPM-sniffing with Saleae logic analyzer-2025](https://pentests.nl/pentest-blog/tpm%E2%80%91sniffing-with-saleae-logic-analyzer/)
+
 [Privilege escalation through TPM Sniffing when BitLocker PIN is enabled](https://blog.scrt.ch/2024/10/28/privilege-escalation-through-tpm-sniffing-when-bitlocker-pin-is-enabled/)
 
 [Stealing the Bitlocker key from a TPM](https://astralvx.com/stealing-the-bitlocker-key-from-a-tpm/)
