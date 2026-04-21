@@ -21,16 +21,23 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 | Dell      | Latitude      | E5470               | 2.0     | NPCT650JAOYX     | SPI      | Motherboard                     | Yes                                          | [Blog](https://labs.withsecure.com/publications/sniff-there-leaks-my-bitlocker-key)                          | Yes         |
 | Dell      | Latitude      | E5450               | 1.2     | AT97SC3205       | SPI      | Motherboard                     | Yes                                          | [Blog](https://luemmelsec.github.io/Go-away-BitLocker-you-are-drunk/)                                        | Yes         |
 | Dell      | Latitude      | 3410                | 2.0     | NPCT750JABYX     | SPI      | Under Motherboard               | Extractable via BIOS chip (U2501) SOIC8      | [@lowercase_drm](https://x.com/lowercase_drm/status/2001221921640226854)                                     | Yes         |
+| Dell      | Latitude      | 5320                | 2.0     | ST33TPHF2XSPI    | SPI      | Under Motherboard (U9101)       | Extractable via BIOS chip (U2501) WSON8      | [@decrazyo](https://github.com/decrazyo/pico-tpm-spider)                                                     | Yes         |
 | Dell      | Latitude      | 5420                | 2.0     | ?                | SPI      | Under Motherboard               | Extractable via BIOS chip (UC2) WSON8        | [@lowercase_drm](https://x.com/lowercase_drm/status/1971146615311433766)                                     | Yes         |
+| Dell      | Latitude      | 5431                | 2.0     | ?                | SPI      | ? (UZ4)                         | Extractable via BIOS chip (UC2) WSON8        | [@decrazyo](https://github.com/decrazyo/pico-tpm-spider)                                                     | Yes         |
 | Dell      | Latitude      | 9420                | 2.0     | ST33TPHF2XSPI    | SPI      | Under Motherboard               | BIOS (UH8) and TPM are under the motherboard | [@lowercase_drm](https://x.com/lowercase_drm/status/1990529480977494078)                                     | Yes         |
+<<<<<<< HEAD
 | Dell      | Pro 14 Plus   | PB14250             | 2.0     | ST33HTPH2X32AHE4 | SPI      | Under Motherboard               | Extractable via BIOS chip (UC2) WSON8        | [@lowercase_drm](https://x.com/lowercase_drm/status/2046313326960062729)                                     | Yes         |
 | Dell      | Pro 16 Plus   | PB16250             | 2.0     | ST33HTPH2X32AHE4 | SPI      | Under Motherboard               | BIOS and TPM are under the motherboard       | [@lowercase_drm](https://x.com/lowercase_drm/status/2039814860821672092)                                     | Yes         |
+=======
+| Dell      | Precision     | 3490                | 2.0     | ST33TPHF2XSPI    | SPI      | ? (UK4)                         | Extractable via BIOS chip (UC2) WSON8        | [@decrazyo](https://github.com/decrazyo/pico-tpm-spider)                                                     | Yes         |
+>>>>>>> noobie/main
 | Microsoft | Surface Pro 3 |                     | 2.0     | SLB9665TT2.0     | LPC      | Under Battery                   | No                                           | [Blog](https://pulsesecurity.co.nz/articles/TPM-sniffing)                                                    | Yes         |
 | Asus      | TPM-M R2.0    |                     | 2.0     | SLB9665TT2.0     | LPC      | -                               | Yes                                          | [Video](https://www.youtube.com/watch?v=-Fj3SeZww3M)                                                         | Yes         |
 | HP        | Elite         | 640 g9              | 2.0     | SLB9670          | SPI      | -                               | Yes                                          | -                                                                                                            | Yes         |
 | HP        | Elite         | 830 G7              | 2.0     | SLB9670VQ        | SPI      | Under Motherboard (QFN package) | Extractable via 25Q256JVEN chip WSON8        | [@lowercase_drm](https://x.com/lowercase_drm/status/1917155760192291171)                                     | Yes         |
 | HP        | Elite         | 840 G6              | 2.0     | SLB9670VQ        | SPI      | Motherboard (U3500)             | Extractable via BIOS chip (U367) WSON8       | [POST CyberForce](https://post-cyberlabs.github.io/Offensive-security-publications/posts/2024_09_tpmandpin/) | Yes         |
 | HP        | Elite         | 1040 G3             | 2.0     | SLB9670VQ        | SPI      | Under Motherboard (QFN package) | Extractable via BIOS Chip (U23) SOIC8        | [@lowercase_drm](https://x.com/lowercase_drm/status/1912783481546883149)                                     | Yes         |
+| HP        | Elite         | 645 G10             | 2.0     | ?                | SPI      | ?                               | Extractable via BIOS chip WSON8              | [@decrazyo](https://github.com/decrazyo/pico-tpm-spider)                                                     | Yes         |
 | HP        | Elite         | 1040 G10            | 2.0     | NPCT760HABYX     | SPI      | Under Motherboard               | Extractable via 25Q256JVEN (chip U367)       | [@lowercase_drm](https://x.com/lowercase_drm/status/1935300711224361382)                                     | Yes         |
 | HP        | ProBook       | 4 G1                | 2.0     | NPCT760HABYX     | SPI      | Under Motherboard               | Extractable via BIOS Chip                    | [@gquere blog](https://www.errno.fr/Bitlocker_TPM_and_PIN_privesc.html)                                      | Yes         |
 | Moxa      | UC-1222A      | Secure Edition      | 2.0     | SLB9670          | SPI      | Under Motherboard               | No                                           | [Blog](https://www.cyloq.se/en/research/cve-2026-0714-tpm-sniffing-luks-keys-on-an-embedded-device)          | Yes         |
@@ -39,6 +46,8 @@ Trusted Platform Module (TPM) is a hardware-based security chip that is often us
 ## Research
 
 For further information and detailed instructions, refer to the provided blog posts and research documents.
+
+[TPM-sniffing with Saleae logic analyzer-2025](https://pentests.nl/pentest-blog/tpm%E2%80%91sniffing-with-saleae-logic-analyzer/)
 
 [Privilege escalation through TPM Sniffing when BitLocker PIN is enabled](https://blog.scrt.ch/2024/10/28/privilege-escalation-through-tpm-sniffing-when-bitlocker-pin-is-enabled/)
 
@@ -87,6 +96,12 @@ For further information and detailed instructions, refer to the provided blog po
 ## Tools
 
 A list of awesome tools for sniffing TPM data are listed below.
+
+[Pico TPM SPIder](https://github.com/decrazyo/pico-tpm-spider)
+
+[pico-spisniffer](https://github.com/aplhk/pico-spisniffer)
+
+[picobitlkr](https://github.com/jerji/picobitlkr)
 
 [bitlocker-spi-toolkit](https://github.com/WithSecureLabs/bitlocker-spi-toolkit)
 
